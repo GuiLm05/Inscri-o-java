@@ -65,7 +65,6 @@
     <h1>Inscrição no Evento</h1>
     <p class="intro">Escolha a área de interesse que mais combina com você e participe!</p>
 
-    <%-- Mensagem enviada pelo Servlet --%>
     <%
         String mensagem = (String) request.getAttribute("mensagem");
         String tipo = (String) request.getAttribute("tipoMensagem");
