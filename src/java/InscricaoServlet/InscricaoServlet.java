@@ -50,7 +50,7 @@ public class InscricaoServlet extends HttpServlet {
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");
             try (Connection con = DriverManager.getConnection(
-                    "jdbc:mysql://localhost:3306/ATV-1", "root", "tricolor23");
+                    "jdbc:mysql://localhost:3306/ATV-1", "root", "SENHA DO BANCO DE DAODS");
                  PreparedStatement ps = con.prepareStatement(
                     "INSERT INTO inscricao (nome,email,telefone,idade,genero,cidade,estado,profissao,interesse,observacao) VALUES (?,?,?,?,?,?,?,?,?,?)")) {
 
